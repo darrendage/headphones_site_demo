@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Rubik&display=swap');
+@import "landing-page/reset.css";
+@import "landing-page/header.css";
+@import "landing-page/top-jumbo.css";
+
+
+/* Swatch colors
+
+Lavender
+dec9f2
+
+Dark Purple
+4945bf
+
+Light purple
+615cf2
+
+Light blue
+05f2f2
+
+Orange
+f2913d 
+
+light placeholder
+d5e2ea
+
+*/
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container-fluid {
+    margin: 0 5%;
+    padding: 0 20px;
+}
+.box-shadow-down {
+    box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.6);
+}
+.box-shadow-center {
+    box-shadow: 0px 0px 30px 13px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 30px 13px rgba(0, 0, 0,0.2);
+    -moz-box-shadow: 0px 0px 30px 13px rgba(0, 0, 0,0.2);
+}
+/* input::placeholder {
+    color: #d5e2ea;
+} */
+
+.back-grad {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #4945bf 69%, #8382bc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#4945bf 69%,#8382bc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%,#4945bf 69%,#8382bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+/* LAPTOPS DEVICES*/
+/* @media only screen and (max-width: 1215px) {
+  
+} */
+
+/* TABLET DEVICES*/
+/* @media only screen and (max-width: 1023px) {
+  
+} */
+
+
+/* MODILE DEVICES*/
+/* @media only screen and (max-width: 767px) {
+  
+} */
+

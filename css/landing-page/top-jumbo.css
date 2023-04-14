@@ -1,0 +1,48 @@
+#top-jumbo {
+    padding: 0 0 200px 0;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 38%, #d04dea 80%, #ffcee7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 38%,#d04dea 80%,#ffcee7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #ffffff 0%,#ffffff 38%,#d04dea 80%,#ffcee7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ }
+#top-jumbo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#top-jumbo .left-side{
+    width: 40%;
+    float: left;
+    border: 1px solid #F00;
+ }
+
+#top-jumbo .left-side .big-letter {
+    font-size: 280px;
+    font-weight: 700;
+    color: #615cf2;
+    opacity: 10%;
+    position: relative;
+    top: 80px;
+    left: -20px;
+
+ } 
+#top-jumbo .left-side h1 {
+    font-size: 70px;
+    color: #4945bf;
+    line-height: 1.2em;
+ }
+#top-jumbo .left-side p {
+    font-size: 25px;
+    color: #aaacaf;
+    line-height: 1.5em;
+ }
+#top-jumbo .right-side{
+    width: 60%;
+    float: left;
+    padding: 0 40px;
+    border: 1px solid #F00;
+ }
+
+#top-jumbo .right-side img{
+    width: 100%;
+ }
